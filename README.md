@@ -24,6 +24,10 @@ folder: device-interface, run **npm install**
 * Written the code to retrieve chart data on the backend
 * Figure out how to handle a bigger data load.
 
+(Found bugs)
+* Backend does not retrieve data on first request.
+* Error with checking message counter logic
+
 (Requirements which I was not able to develop)
 * Switch between 1 hour and 1 day time intervals.
 * Allow users to enter new hex messages via the web application form.
