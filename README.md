@@ -10,10 +10,16 @@ front end code to present the data in table & chart
 
 
 ## To Setup project follow below instructions: 
-folder: API, run npm install
+folder - API, run **npm install**
+###### command to fire up local server: 
+**npm run dev**
 
-## command to fire up local server: npm run dev 
+--------------------------------------------------------------------
 
-folder: device-interface, run npm install
+folder: device-interface, run **npm install**
+###### command to begin Vue.Js app:
+**npm run serve**
 
-## command to begin Vue.Js app -> npm run serve
+(Things I would have done differently with more planning)
+* Written the code to retrieve chart data on the backend
+* Figure out how to handle a bigger data load.
