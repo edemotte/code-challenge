@@ -1,5 +1,16 @@
 # code-challenge
 
+Web Application Features:
+* Get data from CSV file and serve them as data on a server.
+* Bird's eye view of the received data from front end achived via charts. 
+
+3rd Party Librarires Used:
+* csv-parser
+* vuetify
+* moment.js
+* vue-apexcharts
+
+
 ## Folder Structure: 
 
 ###### API
@@ -23,6 +34,7 @@ folder: device-interface, run **npm install**
 (Things I would have done differently with more planning)
 * Written the code to retrieve chart data on the backend
 * Figure out how to handle a bigger data load.
+* Chart Responsiveness
 
 (Found bugs)
 * Backend does not retrieve data on first request.
