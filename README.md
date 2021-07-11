@@ -16,4 +16,4 @@ folder: API, run npm install
 
 folder: device-interface, run npm install
 
-##command to begin Vue.Js app -> npm run serve
+## command to begin Vue.Js app -> npm run serve
