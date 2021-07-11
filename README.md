@@ -23,3 +23,7 @@ folder: device-interface, run **npm install**
 (Things I would have done differently with more planning)
 * Written the code to retrieve chart data on the backend
 * Figure out how to handle a bigger data load.
+
+(Requirements which I was not able to develop)
+* Switch between 1 hour and 1 day time intervals.
+* Allow users to enter new hex messages via the web application form.
