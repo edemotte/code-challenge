@@ -1,6 +1,6 @@
 # code-challenge
 
-##Folder Structure: 
+## Folder Structure: 
 
 ###### API
 backend code to serve the data parsed from CSV file.
