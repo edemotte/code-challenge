@@ -2,9 +2,9 @@
 
 Web Application Features:
 * Get data from CSV file and serve them as data on a server.
-* Bird's eye view of the received data from front end achived via charts. 
+* Bird's eye view of the received data from front end achieved via charts. 
 
-3rd Party Librarires Used:
+3rd Party Libraries Used:
 * csv-parser
 * vuetify
 * moment.js
@@ -31,7 +31,7 @@ folder -> device-interface, run **npm install**
 * Chart Responsiveness
 
 (Found bugs)
-* Backend does not retrieve data on first request. (Seems like this is the node async feature at play, finding for a fix)
+* Backend does not retrieve data on first request.
 * Error with checking message counter logic
 
 (Requirements which I was not able to develop due to time constraints)
