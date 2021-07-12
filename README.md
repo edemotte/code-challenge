@@ -31,7 +31,7 @@ folder -> device-interface, run **npm install**
 * Chart Responsiveness
 
 (Found bugs)
-* Backend does not retrieve data on first request. (Seems like this is the node async feature at play, finding for a fix)
+* Backend does not retrieve data on first request.
 * Error with checking message counter logic
 
 (Requirements which I was not able to develop due to time constraints)
