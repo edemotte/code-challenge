@@ -1,5 +1,7 @@
 # code-challenge
 
+live url: https://edemotte.github.io/code-challenge/
+
 Web Application Features:
 * Get data from CSV file and serve them as data on a server.
 * Bird's eye view of the received data from front end achieved via charts. 
