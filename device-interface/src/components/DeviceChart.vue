@@ -2,13 +2,14 @@
   <v-container>
       <v-row class="text-center">
         <v-col cols="12">
-          <apexchart ref="devchart" width="500" type="bar" :options="options" :series="series"></apexchart>
+          <apexchart ref="devchart" width="500" type="bar" :options="options" :series="options.series"></apexchart>
         </v-col>
       </v-row>
     </v-container>
 </template>
 
 <script>
+// eslint-disable-next-line
 import axios from 'axios';
 import moment from 'moment';
 

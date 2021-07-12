@@ -1,4 +1,5 @@
 <script>
+// eslint-disable-next-line
 import { Bar } from 'vue-chartjs';
 
 export default {

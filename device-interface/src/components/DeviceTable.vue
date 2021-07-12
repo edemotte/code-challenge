@@ -3,7 +3,7 @@
     <v-row v-if="loading" class="text-center">
       <v-col cols="12">
           <v-skeleton-loader
-            v-bind="attrs"
+            v-bind:loading="loading"
             type="table-heading, table-thead, table-tbody, table-tfoot"
           ></v-skeleton-loader>        
       </v-col>
@@ -24,6 +24,7 @@
 </template>
 
 <script>
+// eslint-disable-next-line
 import axios from 'axios';
 import moment from 'moment';
 
