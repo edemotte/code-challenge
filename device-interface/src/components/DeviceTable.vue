@@ -49,10 +49,8 @@ export default {
   },
   async created(){
     this.loading = true
-    const { data } = await axios.get(`http://localhost:3000/api/devices`);
+    const { data } = await axios.get(`https://nnnco-code-challenge.herokuapp.com/api/devices`);
     
-
-
     data.forEach(device => {
       const time = moment(device.time, "YYYY-MM-DDTHH:mm:ss.SSSZ").format("dddd, MMMM Do YYYY, h:mm:ss a");
       const {

@@ -37,7 +37,7 @@ export default {
 
    
 
-    const { data } = await axios.get(`http://localhost:3000/api/devices`);
+    const { data } = await axios.get(`https://nnnco-code-challenge.herokuapp.com/api/devices`);
     
     let allDays = [];
 
