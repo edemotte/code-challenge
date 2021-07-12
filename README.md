@@ -1,6 +1,6 @@
 # code-challenge
 
-live url: https://edemotte.github.io/code-challenge/
+live url: https://edemotte.github.io/code-challenge/ (please refresh if you dont see data, I'm trying to fix this bug)
 
 Web Application Features:
 * Get data from CSV file and serve them as data on a server.
