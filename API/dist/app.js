@@ -4,8 +4,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
+const devices_1 = require("./models/devices");
+const deviceData = new devices_1.Device();
+const port = process.env.PORT || 3000;
 const app = express_1.default();
-app.get('/', (request, response) => {
-    response.send("Hello");
+app.use((request, response, next) => {
+    response.setHeader("Access-Control-Allow-Origin", "*");
+    next();
 });
-app.listen(5000, () => console.log('Server Running'));
+app.get('/api/devices', (request, response) => {
+    response.status(200).send(deviceData.getDevices());
+});
+app.listen(port, () => console.log('Server Running'));

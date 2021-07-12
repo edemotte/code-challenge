@@ -49,7 +49,7 @@ export default {
   },
   async created(){
     this.loading = true
-    const { data } = await axios.get(`http://localhost:5000/api/devices`);
+    const { data } = await axios.get(`http://localhost:3000/api/devices`);
     
 
 
