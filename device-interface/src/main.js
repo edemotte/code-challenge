@@ -1,11 +1,12 @@
+// eslint-disable-next-line
 import Vue from "vue";
 import App from "./App.vue";
 import vuetify from "./plugins/vuetify";
-import VueApexCharts from 'vue-apexcharts'
+import VueApexCharts from "vue-apexcharts";
 
 Vue.config.productionTip = false;
 Vue.use(VueApexCharts);
-Vue.component('apexchart', VueApexCharts);
+Vue.component("apexchart", VueApexCharts);
 
 new Vue({
   vuetify,
